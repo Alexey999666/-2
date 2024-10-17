@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:prac2"
         mc:Ignorable="d"
         Title="Практическая 2" Height="594" Width="777" ResizeMode="CanMinimize" Icon="/DISK12.ICO" Background="Black">
-    <Grid Background="Turquoise">
+    <Grid Background="Turquoise" >
         <Grid.RowDefinitions>
             <RowDefinition Height="26*"/>
             <RowDefinition Height="189*"/>
@@ -30,7 +30,7 @@
             </MenuItem>
         </Menu>
         <DataGrid Grid.Row="1" x:Name="DataGrid" Margin="0,15,0,15" CanUserResizeRows="False" CanUserResizeColumns="False" 
-              CanUserAddRows="False" CellEditEnding="DataGrid_CellEditEnding" Background="LawnGreen" />
+              CanUserAddRows="False" CellEditEnding="DataGrid_CellEditEnding" Background="LawnGreen" Foreground="DarkSlateGray"/>
 
         <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="390">
             <Label Content="Количество чисел" HorizontalContentAlignment="Center" />
